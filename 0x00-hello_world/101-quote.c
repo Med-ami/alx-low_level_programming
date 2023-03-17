@@ -4,9 +4,9 @@
  * main - Entry point
  *
  *Description: print quote by using write function
- *	write(int fd,const void *buf,size_t count)
- * return 1 (not success)
- */
+ *	write(int fd,const void *buf,size_t count);
+ * return: 1 (error)
+*/
 
 int main(void)
 {
@@ -14,5 +14,4 @@ int main(void)
 
 	write(1, quo, 59);
 	return (1);
-
 }
