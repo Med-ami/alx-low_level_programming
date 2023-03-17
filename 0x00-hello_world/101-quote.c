@@ -1,19 +1,16 @@
+#include <stdio.h>
 #include <unistd.h>
 
 /**
  * main - Entry point
  *
- *Description: print quote by using write function
- *	write(int fd,const void *buf,size_t count);
- * return: 1 (error)
+ * Return: Always 1 (success)
+ *
 */
-
 int main(void)
 {
-	char *message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	char *messa = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	write(2, message, 38);
+	write(2, messa, 59);
 	return (1);
 }
-
-
